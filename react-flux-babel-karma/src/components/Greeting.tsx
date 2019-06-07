@@ -19,7 +19,7 @@ class Greeting extends React.Component<Props, any> {
   render() {
     return (
       <p>
-        Hello { this.props.targetOfGreeting }!
+        Hello { this.props.targetOfGreeting }! How are you?
 
         <button className="btn btn-default btn-danger"
                 onClick={ this._onClick }>

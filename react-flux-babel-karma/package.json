@@ -66,6 +66,7 @@
     "karma-sourcemap-loader": "^0.3.6",
     "karma-webpack": "^2.0.2",
     "phantomjs-prebuilt": "^2.1.4",
+    "style-loader": "^0.23.1",
     "ts-loader": "^2.0.1",
     "typescript": "^2.1.4",
     "webpack": "^2.2.1",

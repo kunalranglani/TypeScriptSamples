@@ -57,6 +57,13 @@ module.exports = {
           options: babelOptions
         }
       ]
+    }, {
+      test: /\.css$/,
+        use: [
+          'style-loader',
+          { loader: "style-loader" },
+          { loader: "css-loader" },
+        ]
     }]
   },
   plugins: [
